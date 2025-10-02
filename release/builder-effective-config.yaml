@@ -1,0 +1,17 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.prompttutor.app
+productName: Prompt Typing Tutor
+files:
+  - filter:
+      - dist/**/*
+      - node_modules/**/*
+mac:
+  category: public.app-category.education
+  target: dmg
+win:
+  target: nsis
+linux:
+  target: AppImage
+electronVersion: 20.3.12

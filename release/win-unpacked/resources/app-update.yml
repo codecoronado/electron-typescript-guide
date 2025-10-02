@@ -1,0 +1,4 @@
+owner: Batajus
+repo: electron-typescript-guide
+provider: github
+updaterCacheDirName: prompt-typing-tutor-updater
